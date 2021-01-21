@@ -1,0 +1,193 @@
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    line-height: 1.9;
+    margin: 0 auto;
+}
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: .1rem .1rem .9rem .2rem rgba(150, 148, 148, 0.25);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+@media (min-width: 1100px) {
+    .container {
+        background: white;
+        border-radius: 10px;
+        box-shadow: .1rem .1rem .9rem .2rem rgba(150, 148, 148, 0.25);
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+}
+
+.description h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+
+    margin: 0 auto;
+    padding: 40px 0 0 40px;
+    font-size: 28px;
+}
+
+.description h2 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+ 
+    padding: 10px 0 0 40px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.description .access {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    margin: 0 auto;
+  
+    padding: 0 40px;
+
+}
+
+.description .access2 {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+ 
+    margin: 0 auto;
+    padding: 0 40px 30px 40px;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1100px) {
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.flex .subscription{
+   
+        background-color: hsl(179, 62%, 43%);
+        color: white;
+        width: 100%;
+        margin: 0 auto;
+   
+}
+@media (min-width: 769px) {
+    .flex .subscription {
+        background-color: hsl(179, 62%, 43%);
+        color: white;
+        width: 100%;
+        margin: 0 auto;
+        border-end-end-radius: 1rem;
+        border-bottom-left-radius: 10px;
+    }
+    
+}
+
+.flex .whyUs {
+    background-color: hsla(179, 62%, 43%, 0.699);
+    width: 100%;
+    margin: 0 auto;
+
+    line-height: .8;
+}
+@media (min-width: 768px) {
+    .flex .whyUs {
+        background-color: hsla(179, 62%, 43%, 0.699);
+        width: 100%;
+        margin: 0 auto;
+        border-bottom-right-radius: 10px;
+        line-height: .8;
+    }
+    
+}
+
+.flex .whyUs h2 {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.whyUs .gridWhyUs {
+    width: 80%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.705);
+    line-height: .6;
+    margin-bottom: 50px;
+}
+
+.subscription .flexSub .price p{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+   
+}
+.subscription .flexSub .price p span{
+    padding-left:10px;
+}
+.subscription .price p span {
+    color: hsl(218, 22%, 67%);
+    font-weight: 700;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    
+}
+
+.flex .subscription h2 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.subscription .price p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.subscription .btn {
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 80%;
+    margin: 25px auto;
+    border-radius: .5rem;
+    text-align: center;
+    font-weight: 700;
+
+}
+.subscription .full p{
+    width: 80%;
+    margin: 0 auto auto auto;
+}
